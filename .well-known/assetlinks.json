@@ -1,0 +1,9 @@
+[{
+"relation": ["delegate_permission/common.handle_all_urls"],
+"target": {
+"namespace": "android_app",
+"package_name": "com.pomo.app",
+"sha256_cert_fingerprints": ["13:87:F0:AA:04:50:9A:D3:26:78:28:6C:04:73:8E:54:72:12:EE:5D:9E:F5:90:98:64:AB:55:20:6F:18:5F:7E",
+ B1:43:9C:E0:BB:E2:20:E8:E6:AE:A5:82:59:2F:EE:F8:EC:6D:20:EC:22:F7:FB:3D:A8:78:28:7E:B9:B2:55:C7]
+}
+}]
