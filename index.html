@@ -1,43 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Download the App</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f5f5f5;
-        }
-        h1 {
-            margin-bottom: 20px;
-        }
-        .store-icons {
-            display: flex;
-            gap: 20px;
-        }
-        .store-icons img {
-            width: 150px;
-            cursor: pointer;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Download the App</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+h1 {
+    margin-bottom: 20px;
+}
+.store-icons {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.store-icons img {
+    width: 150px;
+    cursor: pointer;
+}
+.login-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.login-button {
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.kid-login {
+    background-color: #4CAF50;
+    color: white;
+}
+.kid-login:hover {
+    background-color: #45a049;
+}
+.parent-login {
+    background-color: #2196F3;
+    color: white;
+}
+.parent-login:hover {
+    background-color: #1976D2;
+}
+</style>
 </head>
 <body>
-    <h1>Download the App</h1>
-    <div class="store-icons">
-        <a href="#" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play Store">
-        </a>
-        <a href="#" target="_blank">
-            <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-example-preferred_2x.png" alt="Apple App Store">
-        </a>
-    </div>
+<h1>Download the App</h1>
+<div class="store-icons">
+    <a href="#" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play Store">
+    </a>
+    <a href="#" target="_blank">
+        <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-example-preferred_2x.png" alt="Apple App Store">
+    </a>
+</div>
+<div class="login-buttons">
+    <a href="invite?family=muller&role=kid&code=123" class="login-button kid-login">Login as a Kid</a>
+    <a href="invite?family=muller&role=parent&code=123" class="login-button parent-login">Login as a Parent</a>
+</div>
 </body>
 </html>
-
